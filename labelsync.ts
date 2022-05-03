@@ -60,7 +60,10 @@ labelsync({
       config: {
         removeUnconfiguredLabels: true,
       },
-      labels: [...shared],
+      labels: [
+          ...github,
+          ...shared
+      ],
     }),
   },
 });
