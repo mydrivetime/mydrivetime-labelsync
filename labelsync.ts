@@ -1,8 +1,53 @@
-import { labelsync, repo } from "label-sync";
+import {label, labelsync, repo} from "label-sync";
 
 /* Repository */
 import { prisma } from "./repos/prisma";
 import { github } from "./repos/github";
+
+
+const shared = [
+  label({
+    name: "api",
+    color: "#FBCA04",
+    description: "",
+  }),
+  label({
+    name: "architecture",
+    color: "#fc5203",
+    description: "",
+  }),
+  label({
+    name: "data capture",
+    color: "#65DE4A",
+    description: "",
+  }),
+  label({
+    name: "feature",
+    color: "#a2eeef",
+    description: "",
+  }),
+  label({
+    name: "identity server",
+    color: "#ffa930",
+    description: "",
+  }),
+  label({
+    name: "r&d",
+    color: "#C2E0C6",
+    description: "",
+  }),
+  label({
+    name: "user migration",
+    color: "#c92884",
+    description: "",
+  }),
+  label({
+    name: "localisation?",
+    color: "#5319e7",
+    description: "",
+  }),
+]
+
 
 /* Config */
 labelsync({
@@ -15,7 +60,7 @@ labelsync({
       config: {
         removeUnconfiguredLabels: false,
       },
-      labels: [],
+      labels: [...shared],
     }),
   },
 });
