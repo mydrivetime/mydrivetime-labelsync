@@ -1,7 +1,7 @@
 repos:
   mobile-app:
     config:
-      removeUnconfiguredLabels: false
+      removeUnconfiguredLabels: true
     labels:
       localisation?:
         color: '#5319e7'

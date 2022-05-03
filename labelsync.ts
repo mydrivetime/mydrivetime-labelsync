@@ -58,7 +58,7 @@ labelsync({
     /* Personalized repositories */
     "mobile-app": repo({
       config: {
-        removeUnconfiguredLabels: false,
+        removeUnconfiguredLabels: true,
       },
       labels: [...shared],
     }),
