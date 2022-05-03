@@ -2,4 +2,44 @@ repos:
   mobile-app:
     config:
       removeUnconfiguredLabels: false
-    labels: {}
+    labels:
+      localisation?:
+        color: '#5319e7'
+        description: ''
+        alias: []
+        siblings: []
+      user migration:
+        color: '#c92884'
+        description: ''
+        alias: []
+        siblings: []
+      r&d:
+        color: '#C2E0C6'
+        description: ''
+        alias: []
+        siblings: []
+      identity server:
+        color: '#ffa930'
+        description: ''
+        alias: []
+        siblings: []
+      feature:
+        color: '#a2eeef'
+        description: ''
+        alias: []
+        siblings: []
+      data capture:
+        color: '#65DE4A'
+        description: ''
+        alias: []
+        siblings: []
+      architecture:
+        color: '#fc5203'
+        description: ''
+        alias: []
+        siblings: []
+      api:
+        color: '#FBCA04'
+        description: ''
+        alias: []
+        siblings: []
