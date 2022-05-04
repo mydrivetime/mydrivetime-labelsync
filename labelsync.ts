@@ -56,6 +56,15 @@ labelsync({
     // prisma,
     // github,
     /* Personalized repositories */
+    "roadmap": repo({
+      config: {
+        removeUnconfiguredLabels: true,
+      },
+      labels: [
+        ...github,
+        ...shared
+      ],
+    }),
     "mobile-app": repo({
       config: {
         removeUnconfiguredLabels: true,
@@ -63,6 +72,24 @@ labelsync({
       labels: [
           ...github,
           ...shared
+      ],
+    }),
+    "backend": repo({
+      config: {
+        removeUnconfiguredLabels: true,
+      },
+      labels: [
+        ...github,
+        ...shared
+      ],
+    }),
+    "web-app": repo({
+      config: {
+        removeUnconfiguredLabels: false,
+      },
+      labels: [
+        ...github,
+        ...shared
       ],
     }),
   },
