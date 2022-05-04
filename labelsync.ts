@@ -90,7 +90,7 @@ labelsync({
     }),
     "web-app": repo({
       config: {
-        removeUnconfiguredLabels: false,
+        removeUnconfiguredLabels: true,
       },
       labels: [
         ...github,

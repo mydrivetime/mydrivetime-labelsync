@@ -148,7 +148,7 @@ repos:
         siblings: []
   web-app:
     config:
-      removeUnconfiguredLabels: false
+      removeUnconfiguredLabels: true
     labels:
       r&d:
         color: '#C2E0C6'
