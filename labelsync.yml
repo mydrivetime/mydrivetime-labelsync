@@ -3,7 +3,7 @@ repos:
     config:
       removeUnconfiguredLabels: true
     labels:
-      localisation?:
+      localisation:
         color: '#5319e7'
         description: ''
         alias: []
@@ -92,7 +92,7 @@ repos:
     config:
       removeUnconfiguredLabels: true
     labels:
-      localisation?:
+      localisation:
         color: '#5319e7'
         description: ''
         alias: []
@@ -181,7 +181,7 @@ repos:
     config:
       removeUnconfiguredLabels: true
     labels:
-      localisation?:
+      localisation:
         color: '#5319e7'
         description: ''
         alias: []
@@ -270,7 +270,7 @@ repos:
     config:
       removeUnconfiguredLabels: false
     labels:
-      localisation?:
+      localisation:
         color: '#5319e7'
         description: ''
         alias: []

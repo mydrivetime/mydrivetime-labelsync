@@ -42,12 +42,11 @@ const shared = [
     description: "",
   }),
   label({
-    name: "localisation?",
+    name: "localisation",
     color: "#5319e7",
     description: "",
   }),
 ]
-
 
 /* Config */
 labelsync({
@@ -56,6 +55,7 @@ labelsync({
     // prisma,
     // github,
     /* Personalized repositories */
+
     "roadmap": repo({
       config: {
         removeUnconfiguredLabels: true,
