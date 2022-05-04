@@ -85,7 +85,7 @@ labelsync({
     }),
     "web-app": repo({
       config: {
-        removeUnconfiguredLabels: true,
+        removeUnconfiguredLabels: false,
       },
       labels: [
         ...github,
