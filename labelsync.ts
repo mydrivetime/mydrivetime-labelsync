@@ -42,7 +42,7 @@ const shared = [
     description: "",
   }),
   label({
-    name: "localisation",
+    name: "localisation?",
     color: "#5319e7",
     description: "",
   }),
