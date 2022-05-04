@@ -268,7 +268,7 @@ repos:
         siblings: []
   web-app:
     config:
-      removeUnconfiguredLabels: true
+      removeUnconfiguredLabels: false
     labels:
       localisation?:
         color: '#5319e7'
