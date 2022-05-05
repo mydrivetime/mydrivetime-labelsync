@@ -4,8 +4,7 @@ import {label, labelsync, repo} from "label-sync";
 import { prisma } from "./repos/prisma";
 import { github } from "./repos/github";
 
-
-const shared = [
+const backend = [
   label({
     name: "api",
     color: "#FBCA04",
@@ -22,18 +21,8 @@ const shared = [
     description: "",
   }),
   label({
-    name: "feature",
-    color: "#a2eeef",
-    description: "",
-  }),
-  label({
     name: "identity server",
     color: "#ffa930",
-    description: "",
-  }),
-  label({
-    name: "r&d",
-    color: "#C2E0C6",
     description: "",
   }),
   label({
@@ -49,6 +38,19 @@ const shared = [
 ]
 
 
+const shared = [
+  label({
+    name: "feature",
+    color: "#a2eeef",
+    description: "",
+  }),
+  label({
+    name: "r&d",
+    color: "#C2E0C6",
+    description: "",
+  }),
+]
+
 /* Config */
 labelsync({
   repos: {
@@ -56,13 +58,15 @@ labelsync({
     // prisma,
     // github,
     /* Personalized repositories */
+
     "roadmap": repo({
       config: {
         removeUnconfiguredLabels: true,
       },
       labels: [
         ...github,
-        ...shared
+        ...shared,
+        ...backend
       ],
     }),
     "mobile-app": repo({
@@ -80,12 +84,13 @@ labelsync({
       },
       labels: [
         ...github,
-        ...shared
+        ...shared,
+        ...backend
       ],
     }),
     "web-app": repo({
       config: {
-        removeUnconfiguredLabels: false,
+        removeUnconfiguredLabels: true,
       },
       labels: [
         ...github,
