@@ -33,6 +33,11 @@ repos:
         description: ''
         alias: []
         siblings: []
+      work item:
+        color: '#33a9a9'
+        description: ''
+        alias: []
+        siblings: []
       r&d:
         color: '#C2E0C6'
         description: ''
@@ -62,6 +67,11 @@ repos:
     config:
       removeUnconfiguredLabels: true
     labels:
+      work item:
+        color: '#33a9a9'
+        description: ''
+        alias: []
+        siblings: []
       r&d:
         color: '#C2E0C6'
         description: ''
@@ -121,6 +131,11 @@ repos:
         description: ''
         alias: []
         siblings: []
+      work item:
+        color: '#33a9a9'
+        description: ''
+        alias: []
+        siblings: []
       r&d:
         color: '#C2E0C6'
         description: ''
@@ -150,6 +165,11 @@ repos:
     config:
       removeUnconfiguredLabels: true
     labels:
+      work item:
+        color: '#33a9a9'
+        description: ''
+        alias: []
+        siblings: []
       r&d:
         color: '#C2E0C6'
         description: ''

@@ -49,6 +49,11 @@ const shared = [
     color: "#C2E0C6",
     description: "",
   }),
+  label({
+    name: "work item",
+    color: "#33a9a9",
+    description: "",
+  }),
 ]
 
 /* Config */
