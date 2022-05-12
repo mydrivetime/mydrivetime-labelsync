@@ -37,6 +37,14 @@ const backend = [
   }),
 ]
 
+const webapp = [
+  label({
+    name: "waiting-on-api",
+    color: "#db1894",
+    description: "",
+  })
+]
+
 
 const shared = [
   label({
@@ -99,7 +107,8 @@ labelsync({
       },
       labels: [
         ...github,
-        ...shared
+        ...shared,
+        ...webapp
       ],
     }),
   },
