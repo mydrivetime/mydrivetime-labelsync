@@ -45,6 +45,18 @@ const webapp = [
   })
 ]
 
+const mobileapp = [
+  label({
+    name: "ios",
+    color: "#1846db",
+    description: "",
+  }),
+  label({
+    name: "android",
+    color: "#7ddb18",
+    description: "",
+  })
+]
 
 const shared = [
   label({
@@ -60,6 +72,11 @@ const shared = [
   label({
     name: "work item",
     color: "#33a9a9",
+    description: "",
+  }),
+  label({
+    name: "priority",
+    color: "#bb6118",
     description: "",
   }),
 ]
@@ -88,7 +105,8 @@ labelsync({
       },
       labels: [
           ...github,
-          ...shared
+          ...shared,
+          ...mobileapp
       ],
     }),
     "backend": repo({
