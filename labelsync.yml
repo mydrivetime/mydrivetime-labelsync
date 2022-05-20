@@ -33,6 +33,11 @@ repos:
         description: ''
         alias: []
         siblings: []
+      priority:
+        color: '#bb6118'
+        description: ''
+        alias: []
+        siblings: []
       work item:
         color: '#33a9a9'
         description: ''
@@ -67,6 +72,21 @@ repos:
     config:
       removeUnconfiguredLabels: true
     labels:
+      android:
+        color: '#7ddb18'
+        description: ''
+        alias: []
+        siblings: []
+      ios:
+        color: '#1846db'
+        description: ''
+        alias: []
+        siblings: []
+      priority:
+        color: '#bb6118'
+        description: ''
+        alias: []
+        siblings: []
       work item:
         color: '#33a9a9'
         description: ''
@@ -131,6 +151,11 @@ repos:
         description: ''
         alias: []
         siblings: []
+      priority:
+        color: '#bb6118'
+        description: ''
+        alias: []
+        siblings: []
       work item:
         color: '#33a9a9'
         description: ''
@@ -167,6 +192,11 @@ repos:
     labels:
       waiting-on-api:
         color: '#db1894'
+        description: ''
+        alias: []
+        siblings: []
+      priority:
+        color: '#bb6118'
         description: ''
         alias: []
         siblings: []
