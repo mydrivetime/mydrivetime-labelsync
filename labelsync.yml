@@ -72,6 +72,11 @@ repos:
     config:
       removeUnconfiguredLabels: true
     labels:
+      ux:
+        color: '#e267ff'
+        description: ''
+        alias: []
+        siblings: []
       android:
         color: '#7ddb18'
         description: ''
@@ -190,6 +195,11 @@ repos:
     config:
       removeUnconfiguredLabels: true
     labels:
+      ux:
+        color: '#e267ff'
+        description: ''
+        alias: []
+        siblings: []
       waiting-on-api:
         color: '#db1894'
         description: ''

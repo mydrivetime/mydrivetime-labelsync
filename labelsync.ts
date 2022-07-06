@@ -42,6 +42,11 @@ const webapp = [
     name: "waiting-on-api",
     color: "#db1894",
     description: "",
+  }),
+  label({
+    name: "ux",
+    color: "#e267ff",
+    description: "",
   })
 ]
 
@@ -54,6 +59,11 @@ const mobileapp = [
   label({
     name: "android",
     color: "#7ddb18",
+    description: "",
+  }),
+  label({
+    name: "ux",
+    color: "#e267ff",
     description: "",
   })
 ]
