@@ -72,13 +72,18 @@ repos:
     config:
       removeUnconfiguredLabels: true
     labels:
+      alpha feedback:
+        color: '#ADC318'
+        description: Feedback given by an Alpha tester
+        alias: []
+        siblings: []
       ux:
         color: '#e267ff'
         description: ''
         alias: []
         siblings: []
       android:
-        color: '#7ddb18'
+        color: '#18db38'
         description: ''
         alias: []
         siblings: []
@@ -195,6 +200,11 @@ repos:
     config:
       removeUnconfiguredLabels: true
     labels:
+      alpha feedback:
+        color: '#ADC318'
+        description: Feedback given by an Alpha tester
+        alias: []
+        siblings: []
       ux:
         color: '#e267ff'
         description: ''
