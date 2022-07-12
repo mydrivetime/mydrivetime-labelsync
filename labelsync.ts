@@ -47,6 +47,11 @@ const webapp = [
     name: "ux",
     color: "#e267ff",
     description: "",
+  }),
+  label({
+    name: "alpha feedback",
+    color: "#ADC318",
+    description: "Feedback given by an Alpha tester",
   })
 ]
 
@@ -58,13 +63,18 @@ const mobileapp = [
   }),
   label({
     name: "android",
-    color: "#7ddb18",
+    color: "#18db38",
     description: "",
   }),
   label({
     name: "ux",
     color: "#e267ff",
     description: "",
+  }),
+  label({
+    name: "alpha feedback",
+    color: "#ADC318",
+    description: "Feedback given by an Alpha tester",
   })
 ]
 
